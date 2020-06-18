@@ -36,23 +36,34 @@
         
         </div>  
             
-        <div class="col-6 coffee-offer">  <!-- Правая сторона: операционная -->
+        <div class="col-6 coffee-oper">  <!-- Правая сторона: операционная -->
           <div class="row">
             <div class="col-6"> <!-- Дисплей и кружка -->
               <div class="display">
-                <spanclass="display-text">Выберите кофе</span>
-                  <div class="progress mt-2">
+              <span class="display-text">Выберите кофе</span>
+                <div class="progress mt-2">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                    </div>
+                </div>
+              </div>
               <div class="cup">
                 <img src="img/americano.png" alt="">
               </div>   
             </div>
-            
-        <div class="col-6"></div> <!-- Баланс, АТМ?, сдача -->
+            <div class="col-6"><!-- Баланс, АТМ?, сдача -->
+              <div class="input-group mb-3">
+                <input type="text" class="form-control balance" placeholder="Баланс">
+                  <div class="input-group-append">
+                    <span class="input-group-text">&#8381</span>
+                  </div>
+              </div>
+              <div class="atm">
+                <img src="img/bill_acc.png" alt="">
+              </div>
+              <button class="btn btn-primary btn-block mt-3 change-btm">Сдача</button>
+              <div class="change-box mt-3"></div>
+         </div> 
         </div>
         </div>
-      </div>
     </div>
 
     <!-- Optional JavaScript -->
